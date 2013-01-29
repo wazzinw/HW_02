@@ -60,9 +60,8 @@ public class AvatarClock extends Avatar implements Runnable
 			    posY = (int) (360-200*Math.sin(buffer+Math.PI/2));
 				
 			    g.drawString(""+i, posX-2, posY-2);
-			
 			g.setColor(Color.red);
-			g.drawString(""+i, posX-2, posY-2);
+			    g.drawString(""+i, posX-2, posY-2);
 			
 		}
 		}
